@@ -41,3 +41,36 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #60a9ff;
+}
+
+.panel {
+    text-transform: uppercase;
+    max-width: 960px;
+    width: 100%;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricing-plan {
+    border-bottom:1px solid #e1f1ff;
+}
+.pricing-plan:last-child {
+    border-bottom:none;
+}
